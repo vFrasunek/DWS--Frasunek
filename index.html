@@ -10,12 +10,14 @@
 
  <div class="u1"> 
      <p>Úkol 1.</p>
-     <button id="first">klikni zde</button>
- </div> 
+     <!--přidá tlačítko-->
+        <button id="first">klikni zde</button>
+    </div> 
 
  <p> Úkol 2.</p>
  <div class="u2">
 <button class="button" id="second">random text, který se po kliknutí změní </button>
+<!---->
  </div>
 
  <p> Úkol 3.</p>
@@ -44,6 +46,26 @@
 <p>úkol 9.</p>
 <button onclick="zobrazDatum()">Zobrazit aktuální datum</button>
 <p id="datum"></p>
+
+<p> úkol 10.</p>
+<p>Přičti hodnotu 3</p>
+<input type="number" id="userInput" placeholder="Zadejte číslo">
+<button onclick="addThree()">Přičíst 3</button>
+<p id="něco nvm už"></p>
+
+<p> úkol 11.</p>
+<h1>Sečti dvě hodnoty</h1>
+<input type="number" id="firstNumber" placeholder="Zadejte první číslo">
+<input type="number" id="secondNumber" placeholder="Zadejte druhé číslo">
+<button onclick="sumValues()">Sečíst</button>
+<p id="popis"></p>
+
+
+ <p> úkol 12.</p>
+ <h1>Najeďte myší na obrázek pro zvětšení</h1>
+    <div class="image-container">
+        <img src="Výstřižek2.5.PNG" alt="Obrázek" id="zoomImage" style="width: 300px;">
+    </div>
 
 <script src="script.js"></script>
 </body>
